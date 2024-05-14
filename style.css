@@ -1,0 +1,33 @@
+h1 {
+  color: purple;
+}
+/* Add your CSS styles here */
+/* Updated CSS */
+
+body {
+  color: rgb(255, 0, 0);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#taskInput {
+  margin-bottom: 10px;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  cursor: pointer; /* Add pointer cursor to tasks */
+}
+
+.completed {
+  color: rgb(0, 255, 21);
+  text-decoration: line-through; /* Add strike-through style to completed tasks */
+}
